@@ -17,7 +17,7 @@ MSvaluesPy can be installed using `pip` with the command:
 
 To install the latest software version, the following command should be issued:
 
-`pip install MSvaluesPy==1.3.0`
+`pip install MSvaluesPy==1.3.2`
 
 ## Example
 Examples are given as interactive python notebook (ipynb) files:

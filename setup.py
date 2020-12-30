@@ -2,7 +2,7 @@ import setuptools
 setuptools.setup(
     name = 'MSvaluesPy',
     packages = setuptools.find_packages(),
-    version = '1.3.1',
+    version = '1.3.2',
     license = 'MIT',
     description = 'A Python package for deriving quantities based on Mendelian sampling values',
     long_description = open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
