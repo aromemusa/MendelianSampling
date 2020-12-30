@@ -1,0 +1,30 @@
+import setuptools
+setuptools.setup(
+    name = 'MSvaluesPy',
+    packages = setuptools.find_packages(),
+    version = '1.3.0',
+    license = 'MIT',
+    description = 'A Python package for deriving quantities based on Mendelian sampling values',
+    long_description = open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
+    author = 'Abdulraheem Musa, Norbert Reinsch',
+    author_email = 'musa@fbn-dummerstorf.de, reinsch@fbn-dummerstorf.de',
+    url = ' ',
+    download_url = ' ',
+    keywords = ['Mendelian sampling', 'variance', 'covariance', 'similarity', 'selection', 'optimization'],
+    install_requires = [
+        'numpy',
+        'pandas',
+        'scipy',
+        'cvxopt',
+        'matplotlib',
+        ],
+    classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Intended Audience :: Education',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+  ],
+    include_package_data=True,
+    package_data={'': ['example_data/*.txt']},
+)
