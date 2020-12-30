@@ -9,7 +9,7 @@ setuptools.setup(
     author = 'Abdulraheem Musa, Norbert Reinsch',
     author_email = 'musa@fbn-dummerstorf.de, reinsch@fbn-dummerstorf.de',
     url = 'https://github.com/aromemusa/MendelianSampling',
-    download_url = 'https://github.com/aromemusa/MendelianSampling/blob/main/MendelianSampling.rar',
+    download_url = 'https://github.com/aromemusa/MendelianSampling/blob/main/dist/MSvaluesPy-1.3.1.tar.gz',
     keywords = ['Mendelian sampling', 'variance', 'covariance', 'similarity', 'selection', 'optimization'],
     install_requires = [
         'numpy',
